@@ -15,3 +15,8 @@ can allow it to move outside the value and run the block.
     -> w/out "yield" and having 1 method & 1 block, only the method will be executed. 
 
 4) Multiline text to print, use `<<-TEXT...TEXT`
+
+5) w/ recursion, your want to return right after calling it in your method if you don'to
+want it to run a second time.
+
+6) %w(string array) or %i(symbol array)
