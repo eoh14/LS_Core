@@ -1,0 +1,17 @@
+Lesson 2 Notes
+
+1) Pass by Reference = Mutable / destructive (!)
+    -> Value associated to object ID can be reassigned.
+    -> Example: Arrays, array methods & setters (like array objects)
+
+2) Pass by Value = Immutable
+    -> nothing has been mutated
+    -> Value associated to object ID cannot be reassigned.
+    -> w/ variables, the value & object was reassigned, not mutated.
+    -> Example: numbers and booleans
+
+3) Methods take precedence before blocks, but using the "yield" command w/ a block 
+can allow it to move outside the value and run the block.
+    -> w/out "yield" and having 1 method & 1 block, only the method will be executed. 
+
+4) Multiline text to print, use `<<-TEXT...TEXT`
