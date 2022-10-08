@@ -52,16 +52,14 @@ def rock_paper_scissors
   
   case user_input
   
-  when computer_input then winning_message(computer_input, 7, user_input)
+  when computer_input 
+    winning_message(computer_input, 7, user_input)
+    return
   when 1 then winning_message(computer_input, 3, user_input)
   when 2 then winning_message(computer_input, 1, user_input)
   when 3 then winning_message(computer_input, 2, user_input)
   end
-
-  i = 0
   puts "END OF GAME"
-  i += 1
-  puts i
   puts " "
 end
 
