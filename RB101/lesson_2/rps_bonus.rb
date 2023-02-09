@@ -119,4 +119,13 @@ def rock_paper_scissors
   end
 end
 
-rock_paper_scissors
+#rock_paper_scissors
+
+def name
+  "George"
+end
+
+loop do
+  puts name
+  break
+end
