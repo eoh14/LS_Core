@@ -131,9 +131,6 @@ end
 #puts swap('a') == 'a'
 
 #5
-def alpha?(char)
-  char.upcase != char.downcase
-end
 
 def cleanup(str)
   final_str = [str[0]]
