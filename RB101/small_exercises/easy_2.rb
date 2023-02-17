@@ -99,3 +99,18 @@ end
 
 #9
 #[Moe, Larry, CURLY, SHEMP, Harpo, CHICO, Groucho, Zeppo] for both array 1 & 2
+
+#10
+def negative(num)
+  if num > 0
+    return -num
+  else
+    return num
+  end
+end
+
+=begin
+p negative(5) == -5
+p negative(-3) == -3
+p negative(0) == 0      # There's no such thing as -0 in ruby
+=end
