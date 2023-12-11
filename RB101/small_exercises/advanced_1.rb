@@ -304,3 +304,9 @@ p unegyptian(egyptian(Rational(5, 7))) == Rational(5, 7)
 p unegyptian(egyptian(Rational(1, 1))) == Rational(1, 1)
 p unegyptian(egyptian(Rational(2, 1))) == Rational(2, 1)
 p unegyptian(egyptian(Rational(3, 1))) == Rational(3, 1)
+
+#test
+
+response = gets.chomp
+
+response
